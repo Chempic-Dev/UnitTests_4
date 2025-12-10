@@ -26,6 +26,7 @@ class TestGeometry(unittest.TestCase):
         self.assertEqual(power(5, 0), 1)
         self.assertEqual(power(0, 0), 1)
 
+
     def test_power_zero_base(self):
         self.assertEqual(power(0, 5), 0)
 
