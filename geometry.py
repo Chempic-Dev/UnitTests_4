@@ -4,5 +4,5 @@ def cube_volume(length):
     return length ** 3
 
 def power(base, exponent):
-    return base ** exponent + 1
+    return base ** exponent
 
