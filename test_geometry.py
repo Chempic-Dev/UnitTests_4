@@ -19,7 +19,7 @@ class TestGeometry(unittest.TestCase):
     #тесты для power
     def test_power_positive(self):
         self.assertEqual(power(2, 3), 8)
-        self.assertEqual(power(5, 2), 25)
+        self.assertEqual(power(5, 2), 125)
         self.assertEqual(power(3, 4), 81)
 
     def test_power_in_zero(self):
